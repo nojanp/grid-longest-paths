@@ -1,0 +1,64 @@
+#inputDiv {
+	background-color: #f1f1f1;
+	margin: 50px 0px 0px 0px;
+	padding:0px 0px 0px 0px;
+	height: auto;
+	width: 85px;
+	position: fixed;
+	z-index: 999;
+	top: 0px;
+	left: 0px;
+	bottom: 0px;
+}
+
+#myCanvas {
+	margin: 50px 0px 0px 85px;
+}
+
+#header {
+	background-color: #121212;
+	margin: 0px 0px 0px 0px;
+	padding:0px 0px 0px 0px;
+	height: 50px;
+	width: auto;
+	position: fixed;
+	z-index: 999;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+}
+
+#header p {
+	margin: 0px 0px 0px 0px;
+	padding: 12px 0px 0px 0px;
+	font-size: 20px;
+	font-style: rgb(155, 115, 115);
+	color: #f1f1f1;
+	text-align: center;
+	text-decoration: none;
+	vertical-align: middle;
+}
+
+.inputBox {
+ 	width: 50px;
+ 	border-radius: 3px;
+ 	padding: 9px 8px 7px;
+}
+
+.inputContainer {
+ 	width: 100px;
+ 	margin: 5px 5px 0px 5px;
+}
+
+#button {
+ 	width: 70px;
+ 	margin: 5px 5px 0px 5px;
+ 	background: #3897f0;
+    border-color: #3897f0;
+    color: #fff;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    font-weight: 600;
+    cursor:pointer
+}

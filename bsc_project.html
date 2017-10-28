@@ -1,0 +1,42 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+	<head>
+		<title>Profile</title>
+		<meta charset="UTF-8">
+			<link rel="stylesheet" href="./stylesheets/mainPage.css" />
+	</head>
+	<body>
+		<div id="header">
+			<p>Longest path in rectangular grid graphs</p>
+		</div>
+		<div id="inputDiv">
+			<div class="inputContainer">
+				<input type="text" id="mValue" class="inputBox" name="M" placeholder="width">
+			</div>
+			<div class="inputContainer">
+				<input type="text" id="nValue" class="inputBox" name="N" placeholder="height">
+			</div>
+			<div class="inputContainer">
+				<input type="text" id="sxValue" class="inputBox" name="Sx" placeholder="Sx">
+			</div>
+			<div class="inputContainer">
+				<input type="text" id="syValue" class="inputBox" name="Sy" placeholder="Sy">
+			</div>
+			<div class="inputContainer">
+				<input type="text" id="txValue" class="inputBox" name="Tx" placeholder="Tx">
+			</div>
+			<div class="inputContainer">
+				<input type="text" id="tyValue" class="inputBox" name="Ty" placeholder="Ty">
+			</div>
+			<button id="button" onclick="longestPath()">Longest Path</button>
+		<br><br>
+		</div>
+		<canvas id="myCanvas" width="1170" height="530" style="border:1px solid #d3d3d3;"> Your browser does not support the canvas element.
+		</canvas>
+		<script type="text/javascript" src="./js/mainPage.js"></script>
+	</body>
+</html>
+
